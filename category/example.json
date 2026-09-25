@@ -1,0 +1,19 @@
+{
+    "log": "example log",
+    "log description": "example log description",
+    "category": "example category",
+    "description": "example category description",
+    "scenario": "example category scenario",
+    "benchmark": [
+        {
+            "query": "example query string to be query",
+            "frequency": "count of total occurrence time of example query string in the whole example log",
+            "description": "something you want to describe"
+        },
+        {
+            "query": "another example query string to be query",
+            "frequency": "count of total occurrence time of this example query string in the whole example log",
+            "description": "something you want to describe"
+        }
+    ]
+}

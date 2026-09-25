@@ -1,0 +1,443 @@
+[
+   {
+      "log": "Hadoop",
+      "log description": "Apache Hadoop HDFS logs (DataNode/NameNode).",
+      "category": "block_id",
+      "description": "HDFS block identifiers (blk_<id>_<genstamp>).",
+      "scenario": "HDFS block identifiers (blk_<id>_<genstamp>)."
+   },
+   {
+      "log": "Hadoop",
+      "log description": "Apache Hadoop HDFS logs (DataNode/NameNode).",
+      "category": "bp_block_pool",
+      "description": "HDFS block-pool identifiers and their subfields.",
+      "scenario": "HDFS block-pool identifiers and their subfields."
+   },
+   {
+      "log": "Hadoop",
+      "log description": "Apache Hadoop HDFS logs (DataNode/NameNode).",
+      "category": "rpc_op",
+      "description": "HDFS RPC operation names and DataNode operation markers.",
+      "scenario": "HDFS RPC operation names and DataNode operation markers."
+   },
+   {
+      "log": "Hadoop",
+      "log description": "Apache Hadoop HDFS logs (DataNode/NameNode).",
+      "category": "hex_guid_uuid",
+      "description": "UUIDs and 0x hex codes.",
+      "scenario": "UUIDs and 0x hex codes."
+   },
+   {
+      "log": "Hadoop",
+      "log description": "Apache Hadoop HDFS logs (DataNode/NameNode).",
+      "category": "ip_address",
+      "description": "IPv4 addresses of cluster nodes.",
+      "scenario": "IPv4 addresses of cluster nodes."
+   },
+   {
+      "log": "Hadoop",
+      "log description": "Apache Hadoop HDFS logs (DataNode/NameNode).",
+      "category": "port_number",
+      "description": "TCP port numbers appearing in Hadoop RPC and data transfer logs.",
+      "scenario": "TCP port numbers appearing in Hadoop RPC and data transfer logs."
+   },
+   {
+      "log": "Hadoop",
+      "log description": "Apache Hadoop HDFS logs (DataNode/NameNode).",
+      "category": "hostname",
+      "description": "Bare hostnames like mesos-slave-08.",
+      "scenario": "Bare hostnames like mesos-slave-08."
+   },
+   {
+      "log": "Hadoop",
+      "log description": "Apache Hadoop HDFS logs (DataNode/NameNode).",
+      "category": "component_module",
+      "description": "Full Hadoop logger class names (org.apache.hadoop...DataNode).",
+      "scenario": "Full Hadoop logger class names (org.apache.hadoop...DataNode)."
+   },
+   {
+      "log": "Hadoop",
+      "log description": "Apache Hadoop HDFS logs (DataNode/NameNode).",
+      "category": "log_level",
+      "description": "Log severity keywords and Exception class names.",
+      "scenario": "Log severity keywords and Exception class names."
+   },
+   {
+      "log": "Hadoop",
+      "log description": "Apache Hadoop HDFS logs (DataNode/NameNode).",
+      "category": "timestamp",
+      "description": "Date (YYYY-MM-DD) and time components from log timestamps.",
+      "scenario": "Date (YYYY-MM-DD) and time components from log timestamps."
+   },
+   {
+      "log": "Hadoop",
+      "log description": "Apache Hadoop HDFS logs (DataNode/NameNode).",
+      "category": "version_string",
+      "description": "Dotted version numbers (e.g. 2.7.1).",
+      "scenario": "Dotted version numbers (e.g. 2.7.1)."
+   },
+   {
+      "log": "Hadoop",
+      "log description": "Apache Hadoop HDFS logs (DataNode/NameNode).",
+      "category": "filepath_url",
+      "description": "File paths appearing in Hadoop logs.",
+      "scenario": "File paths appearing in Hadoop logs."
+   },
+   {
+      "log": "Hadoop",
+      "log description": "Apache Hadoop HDFS logs (DataNode/NameNode).",
+      "category": "numeric_id",
+      "description": "Standalone numeric ids (5-9 digits): block/seq numbers.",
+      "scenario": "Standalone numeric ids (5-9 digits): block/seq numbers."
+   },
+   {
+      "log": "Hadoop",
+      "log description": "Apache Hadoop HDFS logs (DataNode/NameNode).",
+      "category": "error_message_phrase",
+      "description": "Short error/warning message fragments lifted verbatim from log lines.",
+      "scenario": "Short error/warning message fragments lifted verbatim from log lines."
+   },
+   {
+      "log": "Hadoop",
+      "log description": "Apache Hadoop HDFS logs (DataNode/NameNode).",
+      "category": "long_phrase",
+      "description": "Longer multi-token substrings (10-30 tokens) lifted verbatim from real lines.",
+      "scenario": "Longer multi-token substrings (10-30 tokens) lifted verbatim from real lines."
+   },
+   {
+      "log": "Hadoop",
+      "log description": "Apache Hadoop HDFS logs (DataNode/NameNode).",
+      "category": "high_frequency_token",
+      "description": "Very common tokens (selectivity stress).",
+      "scenario": "Very common tokens (selectivity stress)."
+   },
+   {
+      "log": "Hadoop",
+      "log description": "Apache Hadoop HDFS logs (DataNode/NameNode).",
+      "category": "rare_unique_token",
+      "description": "Needle tokens matching only a handful of lines.",
+      "scenario": "Needle tokens matching only a handful of lines."
+   },
+   {
+      "log": "Spark",
+      "log description": "Apache Spark on YARN/Mesos executor and driver logs.",
+      "category": "attempt_id",
+      "description": "Spark stage attempt IDs.",
+      "scenario": "Spark stage attempt IDs."
+   },
+   {
+      "log": "Spark",
+      "log description": "Apache Spark on YARN/Mesos executor and driver logs.",
+      "category": "rdd_block",
+      "description": "RDD partition and broadcast block IDs.",
+      "scenario": "RDD partition and broadcast block IDs."
+   },
+   {
+      "log": "Spark",
+      "log description": "Apache Spark on YARN/Mesos executor and driver logs.",
+      "category": "hex_guid_uuid",
+      "description": "Block manager UUIDs, application IDs, 0x error codes.",
+      "scenario": "Block manager UUIDs, application IDs, 0x error codes."
+   },
+   {
+      "log": "Spark",
+      "log description": "Apache Spark on YARN/Mesos executor and driver logs.",
+      "category": "stage_task",
+      "description": "Stage, TID, task tokens and numeric stage IDs.",
+      "scenario": "Stage, TID, task tokens and numeric stage IDs."
+   },
+   {
+      "log": "Spark",
+      "log description": "Apache Spark on YARN/Mesos executor and driver logs.",
+      "category": "filepath_url",
+      "description": "File paths and akka/http URLs.",
+      "scenario": "File paths and akka/http URLs."
+   },
+   {
+      "log": "Spark",
+      "log description": "Apache Spark on YARN/Mesos executor and driver logs.",
+      "category": "timestamp",
+      "description": "Date (yy/MM/dd) and time fragments.",
+      "scenario": "Date (yy/MM/dd) and time fragments."
+   },
+   {
+      "log": "Spark",
+      "log description": "Apache Spark on YARN/Mesos executor and driver logs.",
+      "category": "ip_address",
+      "description": "IPv4 addresses.",
+      "scenario": "IPv4 addresses."
+   },
+   {
+      "log": "Spark",
+      "log description": "Apache Spark on YARN/Mesos executor and driver logs.",
+      "category": "hostname",
+      "description": "Bare hostnames for cluster nodes.",
+      "scenario": "Bare hostnames for cluster nodes."
+   },
+   {
+      "log": "Spark",
+      "log description": "Apache Spark on YARN/Mesos executor and driver logs.",
+      "category": "version_string",
+      "description": "Dotted version numbers.",
+      "scenario": "Dotted version numbers."
+   },
+   {
+      "log": "Spark",
+      "log description": "Apache Spark on YARN/Mesos executor and driver logs.",
+      "category": "log_level",
+      "description": "Severity keywords.",
+      "scenario": "Severity keywords."
+   },
+   {
+      "log": "Spark",
+      "log description": "Apache Spark on YARN/Mesos executor and driver logs.",
+      "category": "component_module",
+      "description": "Dotted Spark logger names.",
+      "scenario": "Dotted Spark logger names."
+   },
+   {
+      "log": "Spark",
+      "log description": "Apache Spark on YARN/Mesos executor and driver logs.",
+      "category": "numeric_id",
+      "description": "Pure numeric IDs (4-9 digits).",
+      "scenario": "Pure numeric IDs (4-9 digits)."
+   },
+   {
+      "log": "Spark",
+      "log description": "Apache Spark on YARN/Mesos executor and driver logs.",
+      "category": "error_message_phrase",
+      "description": "Short error/warning message fragments lifted verbatim from log lines.",
+      "scenario": "Short error/warning message fragments lifted verbatim from log lines."
+   },
+   {
+      "log": "Spark",
+      "log description": "Apache Spark on YARN/Mesos executor and driver logs.",
+      "category": "long_phrase",
+      "description": "Longer multi-token substrings (10-30 tokens) lifted verbatim from real lines.",
+      "scenario": "Longer multi-token substrings (10-30 tokens) lifted verbatim from real lines."
+   },
+   {
+      "log": "Spark",
+      "log description": "Apache Spark on YARN/Mesos executor and driver logs.",
+      "category": "rare_unique_token",
+      "description": "Needle tokens matching only a handful of lines.",
+      "scenario": "Needle tokens matching only a handful of lines."
+   },
+   {
+      "log": "Spark",
+      "log description": "Apache Spark on YARN/Mesos executor and driver logs.",
+      "category": "high_frequency_token",
+      "description": "Very common tokens (selectivity stress).",
+      "scenario": "Very common tokens (selectivity stress)."
+   },
+   {
+      "log": "Windows",
+      "log description": "Windows CBS (Component-Based Servicing) event logs.",
+      "category": "kb_update",
+      "description": "Windows update package identifiers (Package_for_KB... and KB... tokens).",
+      "scenario": "Windows update package identifiers (Package_for_KB... and KB... tokens)."
+   },
+   {
+      "log": "Windows",
+      "log description": "Windows CBS (Component-Based Servicing) event logs.",
+      "category": "package_id",
+      "description": "Full Windows package identity strings.",
+      "scenario": "Full Windows package identity strings."
+   },
+   {
+      "log": "Windows",
+      "log description": "Windows CBS (Component-Based Servicing) event logs.",
+      "category": "csi_seq",
+      "description": "CSI transaction sequence identifiers.",
+      "scenario": "CSI transaction sequence identifiers."
+   },
+   {
+      "log": "Windows",
+      "log description": "Windows CBS (Component-Based Servicing) event logs.",
+      "category": "timestamp",
+      "description": "Date and time fragments.",
+      "scenario": "Date and time fragments."
+   },
+   {
+      "log": "Windows",
+      "log description": "Windows CBS (Component-Based Servicing) event logs.",
+      "category": "component_module",
+      "description": "Windows subsystem names (CBS, CSI, Microsoft-Windows-...).",
+      "scenario": "Windows subsystem names (CBS, CSI, Microsoft-Windows-...)."
+   },
+   {
+      "log": "Windows",
+      "log description": "Windows CBS (Component-Based Servicing) event logs.",
+      "category": "hex_guid_uuid",
+      "description": "GUIDs, 0x error codes, hash identifiers, and assembly identity fragments.",
+      "scenario": "GUIDs, 0x error codes, hash identifiers, and assembly identity fragments."
+   },
+   {
+      "log": "Windows",
+      "log description": "Windows CBS (Component-Based Servicing) event logs.",
+      "category": "filepath_url",
+      "description": "Windows file paths and registry paths.",
+      "scenario": "Windows file paths and registry paths."
+   },
+   {
+      "log": "Windows",
+      "log description": "Windows CBS (Component-Based Servicing) event logs.",
+      "category": "version_string",
+      "description": "Dotted version/build numbers.",
+      "scenario": "Dotted version/build numbers."
+   },
+   {
+      "log": "Windows",
+      "log description": "Windows CBS (Component-Based Servicing) event logs.",
+      "category": "numeric_id",
+      "description": "Standalone numeric IDs (4-9 digits) appearing in CBS logs.",
+      "scenario": "Standalone numeric IDs (4-9 digits) appearing in CBS logs."
+   },
+   {
+      "log": "Windows",
+      "log description": "Windows CBS (Component-Based Servicing) event logs.",
+      "category": "error_message_phrase",
+      "description": "Short error/warning message fragments lifted verbatim from log lines.",
+      "scenario": "Short error/warning message fragments lifted verbatim from log lines."
+   },
+   {
+      "log": "Windows",
+      "log description": "Windows CBS (Component-Based Servicing) event logs.",
+      "category": "long_phrase",
+      "description": "Longer multi-token substrings (10-30 tokens) lifted verbatim from real lines.",
+      "scenario": "Longer multi-token substrings (10-30 tokens) lifted verbatim from real lines."
+   },
+   {
+      "log": "Windows",
+      "log description": "Windows CBS (Component-Based Servicing) event logs.",
+      "category": "rare_unique_token",
+      "description": "Needle tokens matching only a handful of lines.",
+      "scenario": "Needle tokens matching only a handful of lines."
+   },
+   {
+      "log": "Windows",
+      "log description": "Windows CBS (Component-Based Servicing) event logs.",
+      "category": "high_frequency_token",
+      "description": "Very common tokens (selectivity stress).",
+      "scenario": "Very common tokens (selectivity stress)."
+   },
+   {
+      "log": "Thunderbird",
+      "log description": "LANL Thunderbird supercomputer syslog corpus (2005-2006).",
+      "category": "ip_address",
+      "description": "IPv4 addresses in syslog.",
+      "scenario": "IPv4 addresses in syslog."
+   },
+   {
+      "log": "Thunderbird",
+      "log description": "LANL Thunderbird supercomputer syslog corpus (2005-2006).",
+      "category": "numeric_id",
+      "description": "Standalone numeric IDs (5-9 digits).",
+      "scenario": "Standalone numeric IDs (5-9 digits)."
+   },
+   {
+      "log": "Thunderbird",
+      "log description": "LANL Thunderbird supercomputer syslog corpus (2005-2006).",
+      "category": "hostname",
+      "description": "Hostnames and domain-like tokens.",
+      "scenario": "Hostnames and domain-like tokens."
+   },
+   {
+      "log": "Thunderbird",
+      "log description": "LANL Thunderbird supercomputer syslog corpus (2005-2006).",
+      "category": "timestamp",
+      "description": "Date and time fragments.",
+      "scenario": "Date and time fragments."
+   },
+   {
+      "log": "Thunderbird",
+      "log description": "LANL Thunderbird supercomputer syslog corpus (2005-2006).",
+      "category": "log_level",
+      "description": "Syslog severity keywords.",
+      "scenario": "Syslog severity keywords."
+   },
+   {
+      "log": "Thunderbird",
+      "log description": "LANL Thunderbird supercomputer syslog corpus (2005-2006).",
+      "category": "syslog_facility",
+      "description": "Syslog facility/process tokens.",
+      "scenario": "Syslog facility/process tokens."
+   },
+   {
+      "log": "Thunderbird",
+      "log description": "LANL Thunderbird supercomputer syslog corpus (2005-2006).",
+      "category": "component_module",
+      "description": "Subsystem and service name tokens.",
+      "scenario": "Subsystem and service name tokens."
+   },
+   {
+      "log": "Thunderbird",
+      "log description": "LANL Thunderbird supercomputer syslog corpus (2005-2006).",
+      "category": "process_pid",
+      "description": "Process name tokens.",
+      "scenario": "Process name tokens."
+   },
+   {
+      "log": "Thunderbird",
+      "log description": "LANL Thunderbird supercomputer syslog corpus (2005-2006).",
+      "category": "mail_queue_id",
+      "description": "Mail queue identifier tokens.",
+      "scenario": "Mail queue identifier tokens."
+   },
+   {
+      "log": "Thunderbird",
+      "log description": "LANL Thunderbird supercomputer syslog corpus (2005-2006).",
+      "category": "mac_ib_addr",
+      "description": "MAC/InfiniBand hardware address tokens.",
+      "scenario": "MAC/InfiniBand hardware address tokens."
+   },
+   {
+      "log": "Thunderbird",
+      "log description": "LANL Thunderbird supercomputer syslog corpus (2005-2006).",
+      "category": "hex_guid_uuid",
+      "description": "UUIDs, hex codes, and GUIDs.",
+      "scenario": "UUIDs, hex codes, and GUIDs."
+   },
+   {
+      "log": "Thunderbird",
+      "log description": "LANL Thunderbird supercomputer syslog corpus (2005-2006).",
+      "category": "filepath_url",
+      "description": "File paths in syslog.",
+      "scenario": "File paths in syslog."
+   },
+   {
+      "log": "Thunderbird",
+      "log description": "LANL Thunderbird supercomputer syslog corpus (2005-2006).",
+      "category": "version_string",
+      "description": "Dotted version/build numbers.",
+      "scenario": "Dotted version/build numbers."
+   },
+   {
+      "log": "Thunderbird",
+      "log description": "LANL Thunderbird supercomputer syslog corpus (2005-2006).",
+      "category": "error_message_phrase",
+      "description": "Short error/warning message fragments lifted verbatim from log lines.",
+      "scenario": "Short error/warning message fragments lifted verbatim from log lines."
+   },
+   {
+      "log": "Thunderbird",
+      "log description": "LANL Thunderbird supercomputer syslog corpus (2005-2006).",
+      "category": "long_phrase",
+      "description": "Longer multi-token substrings (10-30 tokens) lifted verbatim from real lines.",
+      "scenario": "Longer multi-token substrings (10-30 tokens) lifted verbatim from real lines."
+   },
+   {
+      "log": "Thunderbird",
+      "log description": "LANL Thunderbird supercomputer syslog corpus (2005-2006).",
+      "category": "rare_unique_token",
+      "description": "Needle tokens matching only a handful of lines.",
+      "scenario": "Needle tokens matching only a handful of lines."
+   },
+   {
+      "log": "Thunderbird",
+      "log description": "LANL Thunderbird supercomputer syslog corpus (2005-2006).",
+      "category": "high_frequency_token",
+      "description": "Very common tokens (selectivity stress).",
+      "scenario": "Very common tokens (selectivity stress)."
+   }
+]
